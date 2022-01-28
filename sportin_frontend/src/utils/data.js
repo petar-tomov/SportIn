@@ -1,39 +1,49 @@
+import football from '../assets/football.png';
+import basketball from '../assets/basketball.png';
+import tennis from '../assets/tennis.png';
+import volleyball from '../assets/volleyball.png';
+import athletics from '../assets/athletics.png';
+import swimming from '../assets/swimming.png';
+import winter from '../assets/winter.png';
+import esports from '../assets/esports.png';
+import other from '../assets/other.png';
+
 export const categories = [
   {
-    name: 'football',
-    image: 'https://i.pinimg.com/750x/eb/47/44/eb4744eaa3b3ccd89749fa3470e2b0de.jpg',
+    name: 'Football',
+    image: football,
   },
   {
-    name: 'basketball',
-    image: 'https://i.pinimg.com/236x/25/14/29/251429345940a47490cc3d47dfe0a8eb.jpg',
+    name: 'Basketball',
+    image: basketball,
   },
   {
-    name: 'tennis',
-    image: 'https://i.pinimg.com/236x/03/48/b6/0348b65919fcbe1e4f559dc4feb0ee13.jpg',
+    name: 'Tennis',
+    image: tennis,
   },
   {
-    name: 'volleyball',
-    image: 'https://i.pinimg.com/750x/66/b1/29/66b1296d36598122e6a4c5452b5a7149.jpg',
+    name: 'Volleyball',
+    image: volleyball,
   },
   {
-    name: 'athletics',
-    image: 'https://i.pinimg.com/236x/72/8c/b4/728cb43f48ca762a75da645c121e5c57.jpg',
+    name: 'Athletics',
+    image: athletics,
   },
   {
-    name: 'swimming',
-    image: 'https://i.pinimg.com/236x/7d/ef/15/7def15ac734837346dac01fad598fc87.jpg',
+    name: 'Swimming',
+    image: swimming,
   },
   {
-    name: 'wintersports',
-    image: 'https://i.pinimg.com/236x/b9/82/d4/b982d49a1edd984c4faef745fd1f8479.jpg',
+    name: 'Wintersports',
+    image: winter,
   },
   {
-    name: 'e-sports',
-    image: 'https://i.pinimg.com/736x/f4/e5/ba/f4e5ba22311039662dd253be33bf5f0e.jpg',
+    name: 'E-sports',
+    image: esports,
   },
   {
-    name: 'others',
-    image: 'https://i.pinimg.com/236x/2e/63/c8/2e63c82dfd49aca8dccf9de3f57e8588.jpg',
+    name: 'Others',
+    image: other,
   },
 ];
 
