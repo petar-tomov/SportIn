@@ -1,3 +1,3 @@
 # SportIn Social Media App
 
-![SportIn](https://github.com/petar-tomov/SportIn/blob/main/sportin.jpg?raw=true)
+![sportin](https://user-images.githubusercontent.com/50597786/151772761-3f5097dc-6ae2-4f52-92aa-0ff98173eb69.png)
