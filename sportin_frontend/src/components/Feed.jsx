@@ -6,30 +6,27 @@ import { feedQuery, searchQuery } from '../utils/data';
 import MasonryLayout from './MasonryLayout';
 
 const Feed = () => {
+  const [pins, setPins] = useState();
   const [loading, setLoading] = useState(false);
-  const [pins, setPins] = useState(null);
   const { categoryId } = useParams();
 
   useEffect(() => {
-    setLoading(true);
-
-    if(categoryId) {
+    if (categoryId) {
+      setLoading(true);
       const query = searchQuery(categoryId);
-
-      client.fetch(query)
-      .then((data) => {
+      client.fetch(query).then((data) => {
         setPins(data);
         setLoading(false);
-      })
+      });
     } else {
-      client.fetch(feedQuery)
-      .then((data) => {
+      setLoading(true);
+
+      client.fetch(feedQuery).then((data) => {
         setPins(data);
         setLoading(false);
-      })
+      });
     }
   }, [categoryId]);
-  
 
   if(loading) {
   }
